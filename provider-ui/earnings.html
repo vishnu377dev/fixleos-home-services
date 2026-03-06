@@ -1,0 +1,128 @@
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Earnings - FixLeos Partner</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="d-flex" id="wrapper">
+    <!-- Sidebar -->
+    <div class="bg-dark border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading text-white">FIXLEOS Partner</div>
+        <div class="list-group list-group-flush">
+            <a href="index.html" class="list-group-item list-group-item-action bg-dark text-white"><i class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
+            <a href="profile.html" class="list-group-item list-group-item-action bg-dark text-white"><i class="fas fa-user-cog me-2"></i>Profile & Services</a>
+            <a href="earnings.html" class="list-group-item list-group-item-action bg-dark text-white active"><i class="fas fa-wallet me-2"></i>Earnings</a>
+            <a href="login_provider.html" class="list-group-item list-group-item-action bg-dark text-white"><i class="fas fa-sign-out-alt me-2"></i>Logout</a>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
+            <div class="container-fluid">
+                <button class="btn btn-primary" id="menu-toggle"><i class="fas fa-bars"></i></button>
+                <h4 class="mb-0 ms-3">Earnings Dashboard</h4>
+            </div>
+        </nav>
+
+        <div class="container-fluid p-4">
+            <!-- Summary Cards -->
+            <div class="row g-4" id="summary-cards-container">
+                <!-- JS will populate these -->
+            </div>
+
+            <!-- Earnings Chart -->
+            <div class="card shadow-sm mt-4">
+                <div class="card-header bg-white py-3">
+                    <h5 class="mb-0"><i class="fas fa-chart-bar text-primary me-2"></i>Earnings Overview</h5>
+                </div>
+                <div class="card-body">
+                    <canvas id="earningsChart" style="min-height: 250px;"></canvas>
+                </div>
+            </div>
+
+            <!-- Transaction History -->
+            <div class="card shadow-sm mt-4">
+                <div class="card-header bg-white py-3">
+                    <h5 class="mb-0"><i class="fas fa-history text-primary me-2"></i>Transaction History</h5>
+                </div>
+                <!-- Filter Bar -->
+                <div class="p-3 bg-light border-bottom">
+                    <div class="row g-2 align-items-center">
+                        <div class="col-md-4">
+                            <input type="text" id="search-input" class="form-control" placeholder="Search by Customer or Job ID...">
+                        </div>
+                        <div class="col-md-2">
+                             <select id="status-filter" class="form-select">
+                                <option value="all">All Status</option>
+                                <option value="Paid">Paid</option>
+                                <option value="Pending">Pending</option>
+                                <option value="Failed">Failed</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="input-group">
+                               <input type="date" id="start-date" class="form-control">
+                               <span class="input-group-text">to</span>
+                               <input type="date" id="end-date" class="form-control">
+                           </div>
+                        </div>
+                        <div class="col-md-2 d-grid">
+                            <button class="btn btn-primary" id="reset-filters-btn">Reset</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle">
+                            <thead class="table-light">
+                                <tr>
+                                    <th scope="col">Job ID</th>
+                                    <th scope="col">Customer</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Service</th>
+                                    <th scope="col">Amount</th>
+                                    <th scope="col">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="transactions-table-body">
+                                <!-- JS populates this with data and loading spinner -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- Pagination and Export -->
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <div id="pagination-info"></div>
+                        <nav id="pagination-controls"></nav>
+                        <button class="btn btn-outline-secondary btn-sm" id="export-csv-btn"><i class="fas fa-download me-2"></i>Export Filtered</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/earnings_script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+/* --- Stepper Styles --- */
+#stepper {
+    position: relative;
+}
+.step-item {
+    text-align: center;
+    flex-grow: 1;
+    position: relative;
+}
+.step-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e9ecef;
+    border: 2px solid #ced4da;
+    color: #6c757d;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px auto;
+    transition: all 0.3s ease;
+}
+.step-title {
+    font-weight: 500;
+    color: #6c757d;
+    transition: all 0.3s ease;
+}
+/* Active Step Style */
+.step-item.active .step-circle {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: #fff;
+}
+.step-item.active .step-title {
+    color: #0d6efd;
+    font-weight: bold;
+}
+/* Connector Line */
+#stepper .step-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    width: 100%;
+    height: 2px;
+    background-color: #ced4da;
+    z-index: -1;
+}
+
+/* --- Form Step --- */
+.form-step {
+    display: none;
+}
+.form-step.active {
+    display: block;
+}
+
+/* --- Service Selection Box --- */
+.service-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    height: 100%;
+}
+.service-box:hover {
+    border-color: #0d6efd;
+    background-color: #f8f9fa;
+}
+.service-box input[type="checkbox"] {
+    display: none;
+}
+.service-box i {
+    font-size: 2.5rem;
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+.service-box span {
+    font-weight: 500;
+}
+.service-box input[type="checkbox"]:checked + i + span {
+    font-weight: bold;
+}
+.service-box input[type="checkbox"]:checked ~ * {
+    color: #0a58ca;
+}
+label.service-box input:checked ~ * {
+    color: #fff !important;
+}
+label.service-box:has(input:checked) {
+    background-color: #0d6efd;
+    color: #fff;
+    border-color: #0a58ca;
+}
+
+/* --- KYC Upload Box --- */
+.upload-box {
+    border: 2px dashed #ced4da;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+.upload-box:hover, .upload-box.dragover {
+    border-color: #0d6efd;
+}
+.file-input {
+    display: none;
+}
+.upload-icon {
+    font-size: 3rem;
+    color: #6c757d;
+}
+.upload-text {
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #495057;
+}
+.preview-container {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 10px;
+}
+.preview-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.remove-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    cursor: pointer;
+}
