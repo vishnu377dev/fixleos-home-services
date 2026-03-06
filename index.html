@@ -1,0 +1,1543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixleos A Services Provider in All India</title>
+
+    <link rel="icon" href="images/logos/favicon.png">
+    <link rel="stylesheet" href="custom-css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="custom-css/style.css">
+    <link rel="stylesheet" href="custom-css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+   
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+<body>
+    
+
+         <div class="modal fade login-modal" id="logindrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+           <div class="modal-dialog login-modal-dialog">
+             <div  class="modal-content login-modal-content" >
+               <div class="modal-header login-modal-header">
+                       <div class="login-callicon">
+                             <i class="bi bi-telephone-plus-fill"></i>
+                       </div>
+                 <button type="button" class="btn-close login-bttnbg" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+                   <div id="mainPage">
+                     <div  class="modal-body login-body">
+                   <h5>Enter your phone number</h5>
+                   <p>We’ll send you a text with a verification code.</p>
+
+                   <div class="login-modal-input d-flex align-items-center mt-4">
+                        <div class="loginnumber d-flex align-items-center justify-content-center me-3 pe-3">
+                             + 91
+                        </div>
+                        <input type="number" placeholder="Enter your phone number" required
+                         maxlength="10" oninput="javascript: if (this.value.length &gt; this.maxLength) this.value = this.value.slice(0, this.maxLength);" id="number" name="number" required="">
+                   </div>
+                   <div class="login-sendotp mt-3">
+                    <a href="" id="showOtpPage" >Continue</a>
+                 </div>
+               </div>
+                 
+                 <div class="login-modal-footer">
+                     <p>By continuing, you agree to our <a href="">T&C</a> and <a href="">Privacy policy</a>.</p>
+                 </div>
+                   </div>
+                  <div id="otpPage" class="otpcontentbg d-none"  >
+                         <div class="otp-icon">
+
+                         </div>
+                         <div class="enterotp-text">
+                            <h5>Enter Verification Code</h5>
+                             <p>A 6-digit verification code has beensent to +91 <span> mobile number</span></p>
+                         </div>
+                         <div class="enterotp-codeinput">
+                              <input type="text" maxlength="1" pattern="[0-9]">
+                              <input type="text" maxlength="1" pattern="[0-9]">
+                              <input type="text" maxlength="1" pattern="[0-9]">
+                              <input type="text" maxlength="1" pattern="[0-9]">
+                              <input type="text" maxlength="1" pattern="[0-9]">
+                              <input type="text" maxlength="1" pattern="[0-9]">
+                         </div>
+                         <div class="resend-otpbttn mt-3">
+                               <button>Resend Otp</button>
+                         </div>
+                         <div class="login-withotp mt-4">
+                                <a href="">Login</a>
+                         </div>
+              </div>
+             </div>
+             
+           </div>
+         </div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered  modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Women's Salon & Spa</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class=" fx-services-boxes ">
+            <div class="fx-select-service-box">
+                <a href="services.html">
+                    <img src="images/service-images/women-salon.webp" alt="">
+                    <p>Salon for Women</p>
+                </a>
+            </div>
+             <div class="fx-select-service-box">
+                <a href="">
+                    <img src="images/service-images/women-salon.webp" alt="">
+                    <p>Salon for Women</p>
+                </a>
+            </div>
+             <div class="fx-select-service-box">
+                <a href="">
+                    <img src="images/service-images/women-salon.webp" alt="">
+                    <p>Salon for Women</p>
+                </a>
+            </div>
+             <div class="fx-select-service-box">
+                <a href="">
+                    <img src="images/service-images/women-salon.webp" alt="">
+                    <p>Salon for Women</p>
+                </a>
+            </div>  
+            <div class="fx-select-service-box">
+                <a href="">
+                    <img src="images/service-images/women-salon.webp" alt="">
+                    <p>Salon for Women</p>
+                </a>
+            </div>
+            <div class="fx-select-service-box">
+                <a href="">
+                    <img src="images/service-images/women-salon.webp" alt="">
+                    <p>Salon for Women</p>
+                </a>
+            </div>
+        </div>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+
+<div id="header"></div>
+
+<section class="fx-hero-section pt-5 pb-5 position-relative">
+     <div class="container">
+        <div class="row">
+            <div class="col-12">
+                  <div class="fx-hero-head text-center ">
+                    <h1>Your Marketplace for High Quality <br> <span>Services At Your Door-Step.</span></h1>
+                      <p>Discover top-notch services delivered right to your doorstep. From home repairs to beauty treatments, our marketplace connects you with trusted professionals for convenient, reliable, and quality service every time.</p>
+                    <!-- <div class="fx-hero-inputs d-flex align-items-center justify-content-center gap-4 mt-5">
+                              <div class="fx-hero-locte-input d-flex align-items-center">
+                                <i class="bi bi-geo-alt"></i>
+                                    <input type="text" placeholder="Search here your Area/Town">
+                              </div>
+                              <div class="fx-hero-search-input d-flex align-items-center">
+                                <i class="bi bi-search"></i>
+                                      <input type="text" placeholder=" Search For Services">
+                              </div>
+                       </div> -->
+                       
+                  </div>
+            </div>
+        </div>
+    </div>
+               <div id="services" class="fx-services-box">
+                        <ul>
+                          <li>
+                            <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="services.html">
+                              <img src="images/service-images/cleaning-service.png" alt="">
+                            <span>water tank cleaning</span>
+                            </a>
+                          </li>
+                           <li>
+                            <a href="">
+                              <img src="images/service-images/pest-control-service.png" alt="">
+                            <span>house cleaning</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img src="images/service-images/painting-service.png" alt="">
+                            <span>Painting</span>
+                            </a>
+                          </li>
+                           <li>
+                            <a href="">
+                              <img src="images/service-images/sanitization-service.png" alt="">
+                            <span>Fumigation & Sanitization</span>
+                            </a>
+                          </li>
+                           <li>
+                            <a href="">
+                              <img src="images/service-images/women-salon.webp" alt="">
+                            <span>Salon for Women</span>
+                            </a>
+                          </li>
+                           <li>
+                            <a href="">
+                              <img src="images/service-images/ac-repair.webp" alt="">
+                            <span>AC Services & Repair</span>
+                            </a>
+                          </li>
+                           <li>
+                            <a href="">
+                              <img src="images/service-images/men-salon.webp" alt="">
+                            <span>Salon for Men</span>
+                            </a>
+                          </li>
+                           <li>
+                            <a href="">
+                              <img src="images/service-images/smart-lock-service.webp" alt="">
+                            <span>Smart Lock</span>
+                            </a>
+                          </li>
+                           <li>
+                            <a href="">
+                              <img src="images/service-images/plumbing-service.png" alt="">
+                            <span>Plumbing services</span>
+                            </a>
+                          </li>
+                           <li>
+                            <a href="">
+                              <img src="images/service-images/electoronic-repair.webp" alt="">
+                            <span>Electrical</span>
+                            </a>
+                          </li>
+                           <li>
+                            <a href="">
+                              <img src="images/service-images/carpenter-service.png" alt="">
+                            <span>Carpentery service</span>
+                            </a>
+                          </li>
+                        </ul>
+                       </div>
+</section>
+<!-- <section class="fx-home-hero-section pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+                   <div class="">
+                    <div class="fx-home-hero-content">
+                      <p>All Service Available 24/7</p>
+                    <h1>Your Marketplace for High Quality <span>Services At Your Door-Step.</span></h1>
+                    </div>
+                       <div class="fx-search-tabs ">
+                             <ul class="d-flex flex-wrap m-0 p-0">
+                                 <li>
+                                       <p>I'm looking to..</p>
+                                       <div class="fx-custom-select" id="customSelect">
+                                          <div class="fx-select-box d-flex align-items-center justify-content-between" onclick="toggleDropdown()"><span>Search Location</span> <i class="bi bi-caret-down-fill"></i></div>
+                                          <div class="fx-dropdown">
+                                            <input type="text" placeholder="Search service..." oninput="filterOptions(this)" />
+                                            <div class="fx-option" onclick="selectOption(this)">Jaipur</div>
+                                            <div class="fx-option" onclick="selectOption(this)">Jaipur</div>
+                                            <div class="fx-option" onclick="selectOption(this)">Jaipur</div>
+                                            <div class="fx-option" onclick="selectOption(this)">Jaipur</div>
+                                            <div class="fx-option" onclick="selectOption(this)">Jaipur</div>
+                                            <div class="fx-option" onclick="selectOption(this)">Jaipur</div>
+                                          </div>
+                                        </div>
+                                 </li>
+                                  <li>
+                                       <p>I'm looking to..</p>
+                                      <div class="dropdown-wrapper" id="customDropdown">
+                                        <div class="fx-select-box d-flex align-items-center justify-content-between" onclick="toggleCustomDropdown()"><span>Find Categories</span> <i class="bi bi-caret-down-fill"></i></div>
+                                        <div class="dropdown-menu">
+                                          <input type="text" placeholder="Search service..." oninput="searchDropdownItems(this)" />
+                                          <div class="dropdown-item" onclick="chooseDropdownItem(this)">Plumbing</div>
+                                          <div class="dropdown-item" onclick="chooseDropdownItem(this)">Cleaning</div>
+                                          <div class="dropdown-item" onclick="chooseDropdownItem(this)">Electrician</div>
+                                          <div class="dropdown-item" onclick="chooseDropdownItem(this)">Painting</div>
+                                          <div class="dropdown-item" onclick="chooseDropdownItem(this)">AC Repair</div>
+                                          <div class="dropdown-item" onclick="chooseDropdownItem(this)">Smart Lock Repair</div>
+                                        </div>
+                                      </div>
+                                 </li>
+                                  <li class=" text-center">
+                                       <button class="fx-search-hero-bttn" type="submit">Search</button>
+                                 </li>
+                             </ul>
+                       </div>
+                   </div>
+                   <div class="fx-services-tab mt-4">
+                          <h3>Our Popular Services</h3>
+                         <ul>
+                             <li><a data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="">Home Services</a></li>
+                             <li><a href="">AC Services</a></li>
+                             <li><a href="">Cleaning</a></li>
+                             <li><a href="">Salon for Women</a></li>
+                             <li><a href="">Salon for Men</a></li>
+                         </ul>
+                   </div>
+            </div>
+            <div class="col-md-5">
+              <div class="fx-home-hero-img">
+                   <img src="images/service-images/hero-work-img.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+</section> -->
+<section class="fx-advt-and-sale-section pt-5 pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="owl-carousel fx-advt-carousel owl-theme">
+           <div class="item">
+              <div class="fx-advt-img">
+               <a href="">
+                 <img src="images/service-images/advt01.webp" alt="">
+               </a>
+              </div>
+           </div>
+           <div class="item">
+            <div class="fx-advt-img">
+                <a href=""><img src="images/service-images/advt04.webp" alt=""></a>
+              </div>
+           </div>
+           <div class="item">
+            <div class="fx-advt-img">
+                <a href=""><img src="images/service-images/advt03.webp" alt=""></a>
+              </div>
+           </div>
+           <div class="item">
+              <div class="fx-advt-img">
+                <a href=""><img src="images/service-images/advt02.webp" alt=""></a>
+              </div>
+           </div>
+           <div class="item">
+            <div class="fx-advt-img">
+               <a href=""> <img src="images/service-images/advt05.webp" alt=""></a>
+              </div>
+           </div>
+           <div class="item">
+            <div class="fx-advt-img">
+                <a href=""><img src="images/service-images/advt06.webp" alt=""></a>
+              </div>
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fx-new-services pt-4 pb-5">
+       <div class="container">
+        <div class="row">
+           <div class="fx-new-service-head mb-4">
+              <h2>New and <span>noteworthy</span></h2>
+           </div>
+          <div class="col-12">
+              <div class="owl-carousel fx-new-services-carousel owl-theme">
+           <div class="item">
+              <div class="fx-new-service-box">
+               <a href="">
+                 <div class="fx-new-service-img">
+                  <img src="images/service-images/water-purifier.png" alt="">
+                 </div>
+                 <div class="fx-new-service-name">
+                     <p>Native Water Purifier</p>
+                 </div>
+               </a>
+              </div>
+           </div>
+           <div class="item">
+             <div class="fx-new-service-box">
+               <a href="">
+                 <div class="fx-new-service-img">
+                  <img src="images/service-images/ac-service.jpeg" alt="">
+                 </div>
+                 <div class="fx-new-service-name">
+                     <p>AC Repair & Service</p>
+                 </div>
+               </a>
+              </div>
+           </div>
+           <div class="item">
+             <div class="fx-new-service-box">
+               <a href="">
+                 <div class="fx-new-service-img">
+                 <img src="images/service-images/fresh-cleaning.png" alt="">
+                 </div>
+                 <div class="fx-new-service-name">
+                     <p>Bathroom & kitchen cleaning</p>
+                 </div>
+               </a>
+              </div>
+           </div>
+           <div class="item">
+             <div class="fx-new-service-box">
+               <a href="">
+                 <div class="fx-new-service-img">
+                  <img src="images/service-images/hair-set-women.jpeg" alt="">
+                 </div>
+                 <div class="fx-new-service-name">
+                     <p>Hair Studio for Women</p>
+                 </div>
+               </a>
+              </div>
+           </div>
+           <div class="item">
+             <div class="fx-new-service-box">
+               <a href="">
+                 <div class="fx-new-service-img">
+                  <img src="images/service-images/painter.png" alt="">
+                 </div>
+                 <div class="fx-new-service-name">
+                     <p> Painting & Waterproofing</p>
+                 </div>
+               </a>
+              </div>
+           </div>
+           <div class="item">
+             <div class="fx-new-service-box">
+               <a href="">
+                 <div class="fx-new-service-img">
+                  <img src="images/service-images/water-purifier.png" alt="">
+                 </div>
+                 <div class="fx-new-service-name">
+                     <p>Native Water Purifier</p>
+                 </div>
+               </a>
+              </div>
+           </div>
+           <div class="item">
+             <div class="fx-new-service-box">
+               <a href="">
+                 <div class="fx-new-service-img">
+                 <img src="images/service-images/ac-service.jpeg" alt="">
+                 </div>
+                 <div class="fx-new-service-name">
+                     <p>AC Repair & Service</p>
+                 </div>
+               </a>
+              </div>
+           </div>
+           <div class="item">
+             <div class="fx-new-service-box">
+               <a href="">
+                 <div class="fx-new-service-img">
+                  <img src="images/service-images/fresh-cleaning.png" alt="">
+                 </div>
+                 <div class="fx-new-service-name">
+                     <p> Bathroom & kitchen cleaning</p>
+                 </div>
+               </a>
+              </div>
+           </div>
+           <div class="item">
+             <div class="fx-new-service-box">
+               <a href="">
+                 <div class="fx-new-service-img">
+                  <img src="images/service-images/hair-set-women.jpeg" alt="">
+                 </div>
+                 <div class="fx-new-service-name">
+                     <p>Hair Studio for Women</p>
+                 </div>
+               </a>
+              </div>
+           </div>
+           <div class="item">
+             <div class="fx-new-service-box">
+               <a href="">
+                 <div class="fx-new-service-img">
+                  <img src="images/service-images/painter.png" alt="">
+                 </div>
+                 <div class="fx-new-service-name">
+                     <p> Painting & Waterproofing</p>
+                 </div>
+               </a>
+              </div>
+           </div>
+          </div>
+          </div>
+        </div>
+       </div>
+</section>
+ 
+<section class="advrt-new-slide">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+            <div class="advrt-new-slide-img overflow-hidden">
+             <a href="">
+               <img src="images/service-images/advrt-slide.png" alt="">
+             </a>
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="fx-most-services pt-5 pb-5">
+       <div class="container">
+        <div class="row">
+           <div class="fx-most-service-head mb-4">
+              <h2>Most Booked <span>Services</span></h2>
+           </div>
+          <div class="col-12">
+              <div class="owl-carousel fx-most-services-carousel owl-theme">
+           <div class="item">
+              <div class="fx-most-service-box">
+               <a href="">
+                 <div class="fx-most-service-img">
+                  <img src="images/service-images/ac-most-service.jpeg" alt="">
+                 </div>
+                 <div class="fx-most-service-content p-2">
+                     <p>Foam AC service</p>
+                     <div class="fx-star-rating p-1">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                     </div>
+                     <div class="fx-price p-1">
+                        <span>&#8377 240</span>
+                     </div>
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-most-service-box">
+               <a href="">
+                 <div class="fx-most-service-img">
+                  <img src="images/service-images/window-hing.jpg" alt="">
+                 </div>
+                 <div class="fx-most-service-content p-2">
+                     <p>Window hinge installation</p>
+                     <div class="fx-star-rating p-1">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                     </div>
+                     <div class="fx-price p-1">
+                        <span>&#8377 200</span>
+                     </div>
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-most-service-box">
+               <a href="">
+                 <div class="fx-most-service-img">
+                  <img src="images/service-images/bath-cleaning.jpeg" alt="">
+                 </div>
+                 <div class="fx-most-service-content p-2">
+                     <p>Intense bathroom cleaning</p>
+                     <div class="fx-star-rating p-1">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                     </div>
+                     <div class="fx-price p-1">
+                        <span>&#8377 340</span>
+                     </div>
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-most-service-box">
+               <a href="">
+                 <div class="fx-most-service-img">
+                  <img src="images/service-images/toilet-claning.jpeg" alt="">
+                 </div>
+                 <div class="fx-most-service-content p-2">
+                     <p>Classic bathroom cleaning</p>
+                     <div class="fx-star-rating p-1">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                     </div>
+                     <div class="fx-price p-1">
+                        <span>&#8377 300</span>
+                     </div>
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-most-service-box">
+               <a href="">
+                 <div class="fx-most-service-img">
+                  <img src="images/service-images/tap-repair.jpg" alt="">
+                 </div>
+                 <div class="fx-most-service-content p-2">
+                     <p>Tap repair</p>
+                     <div class="fx-star-rating p-1">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                     </div>
+                     <div class="fx-price p-1">
+                        <span>&#8377 200</span>
+                     </div>
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-most-service-box">
+               <a href="">
+                 <div class="fx-most-service-img">
+                  <img src="images/service-images/ac-gasrefill.jpeg" alt="">
+                 </div>
+                 <div class="fx-most-service-content p-2">
+                     <p>Gas refill & check-up</p>
+                     <div class="fx-star-rating p-1">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                     </div>
+                     <div class="fx-price p-1">
+                        <span>&#8377 650</span>
+                     </div>
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-most-service-box">
+               <a href="">
+                 <div class="fx-most-service-img">
+                  <img src="images/service-images/hair-set-women.jpeg" alt="">
+                 </div>
+                 <div class="fx-most-service-content p-2">
+                     <p>Haircut for Women</p>
+                     <div class="fx-star-rating p-1">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                     </div>
+                     <div class="fx-price p-1">
+                        <span>&#8377 230</span>
+                     </div>
+                 </div>
+               </a>
+              </div>
+           </div>
+          </div>
+          </div>
+        </div>
+       </div>
+</section>
+
+<section class="fx-cleaning-services pt-4 pb-5">
+     <div class="container">
+        <div class="row">
+                   <div class="fx-cleaning-head pb-2">
+                            <h2>Cleaning <span>Services</span></h2>
+                   </div>
+            <div class="col-12">
+                   <div class="fx-cleaning-container">
+                             <ul>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                    <a href="">
+                                      <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/deep-home-clean.png" alt="">
+                                    </div>
+                                       <p>Deep Home Ceaning</p>
+                                    </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                    <a href="">
+                                      <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/comircal-cleaning.png" alt="">
+                                    </div>
+                                       <p>Commercial Cleaning</p>
+                                    </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                   <a href="">
+                                     <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/bath-brush-clean.png" alt="">
+                                    </div>
+                                       <p>Bathroom Cleaning</p>
+                                   </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                   <a href="">
+                                     <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/kitchen-clean.png" alt="">
+                                    </div>
+                                       <p>Kitchen Cleaning</p>
+                                   </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                   <a href="">
+                                     <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/window-clean.png" alt="">
+                                    </div>
+                                       <p>Window Cleaning</p>
+                                   </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                    <a href="">
+                                      <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/floor-clean.png" alt="">
+                                    </div>
+                                       <p>After Party Cleaning</p>
+                                    </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                    <a href="">
+                                      <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/carpet-clean.png" alt="">
+                                    </div>
+                                       <p>Carpet Cleaning</p>
+                                    </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                   <a href="">
+                                     <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/sofa-clean.png" alt="">
+                                    </div>
+                                       <p>Sofa Cleaning</p>
+                                   </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                   <a href="">
+                                     <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/office-clean.png" alt="">
+                                    </div>
+                                       <p>Office Cleaning</p>
+                                   </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                    <a href="">
+                                      <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/balcony-clean.png" alt="">
+                                    </div>
+                                       <p>Balcony Cleaning</p>
+                                    </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                   <a href="">
+                                     <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/ac-clean.png" alt="">
+                                    </div>
+                                       <p>Ac Cleaning</p>
+                                   </a>
+                                 </div>
+                              </li>
+                               <li>
+                                <div class="fx-cleaning-box">
+                                   <a href="">
+                                     <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/refrigerator-clean.png" alt="">
+                                    </div>
+                                       <p>Refrigerator Cleaning</p>
+                                   </a>
+                                 </div>
+                              </li>
+                             </ul>
+                               <ul>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                    <a href="">
+                                      <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/deep-home-clean.png" alt="">
+                                    </div>
+                                       <p>Deep Home Ceaning</p>
+                                    </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                    <a href="">
+                                      <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/comircal-cleaning.png" alt="">
+                                    </div>
+                                       <p>Commercial Cleaning</p>
+                                    </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                   <a href="">
+                                     <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/bath-brush-clean.png" alt="">
+                                    </div>
+                                       <p>Bathroom Cleaning</p>
+                                   </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                   <a href="">
+                                     <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/kitchen-clean.png" alt="">
+                                    </div>
+                                       <p>Kitchen Cleaning</p>
+                                   </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                   <a href="">
+                                     <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/window-clean.png" alt="">
+                                    </div>
+                                       <p>Window Cleaning</p>
+                                   </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                    <a href="">
+                                      <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/floor-clean.png" alt="">
+                                    </div>
+                                       <p>After Party Cleaning</p>
+                                    </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                    <a href="">
+                                      <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/carpet-clean.png" alt="">
+                                    </div>
+                                       <p>Carpet Cleaning</p>
+                                    </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                   <a href="">
+                                     <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/sofa-clean.png" alt="">
+                                    </div>
+                                       <p>Sofa Cleaning</p>
+                                   </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                   <a href="">
+                                     <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/office-clean.png" alt="">
+                                    </div>
+                                       <p>Office Cleaning</p>
+                                   </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                    <a href="">
+                                      <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/balcony-clean.png" alt="">
+                                    </div>
+                                       <p>Balcony Cleaning</p>
+                                    </a>
+                                 </div>
+                              </li>
+                              <li>
+                                <div class="fx-cleaning-box">
+                                   <a href="">
+                                     <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/ac-clean.png" alt="">
+                                    </div>
+                                       <p>Ac Cleaning</p>
+                                   </a>
+                                 </div>
+                              </li>
+                               <li>
+                                <div class="fx-cleaning-box">
+                                   <a href="">
+                                     <div class="fx-cleaning-img mb-3">
+                                        <img src="images/service-images/refrigerator-clean.png" alt="">
+                                    </div>
+                                       <p>Refrigerator Cleaning</p>
+                                   </a>
+                                 </div>
+                              </li>
+                             </ul>
+                   </div>
+            </div>
+        </div>
+     </div>
+</section>
+
+<section class="fx-appliance-services pt-4 pb-5">
+       <div class="container">
+        <div class="row">
+           <div class="fx-appliance-service-head mb-4">
+              <h2>Appliance repair <span>& service</span></h2>
+           </div>
+          <div class="col-12">
+              <div class="owl-carousel fx-appliance-services-carousel owl-theme">
+           <div class="item">
+              <div class="fx-appliance-service-box">
+               <a href="">
+                <div class="fx-appliance-service-name pb-5">
+                     <p>Chimny</p>
+                 </div>
+                 <div class="fx-appliance-service-img">
+                  <img src="images/service-images/chimny.png" alt="">
+                 </div>
+                 
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-appliance-service-box">
+               <a href="">
+                <div class="fx-appliance-service-name pb-5">
+                     <p>Water Purifier</p>
+                 </div>
+                 <div class="fx-appliance-service-img">
+                  <img src="images/service-images/water-purifire-front.png" alt="">
+                 </div>
+                 
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-appliance-service-box">
+               <a href="">
+                <div class="fx-appliance-service-name pb-5">
+                     <p>Native Water Purifier</p>
+                 </div>
+                 <div class="fx-appliance-service-img">
+                  <img src="images/service-images/water-purifier-all.png" alt="">
+                 </div>
+                 
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-appliance-service-box">
+               <a href="">
+                <div class="fx-appliance-service-name pb-5">
+                     <p>Refrigerator</p>
+                 </div>
+                 <div class="fx-appliance-service-img">
+                  <img src="images/service-images/freez-all.png" alt="">
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-appliance-service-box">
+               <a href="">
+                <div class="fx-appliance-service-name pb-5">
+                     <p>AC Repair & Service</p>
+                 </div>
+                 <div class="fx-appliance-service-img">
+                  <img src="images/service-images/ac-app-service.jpeg" alt="">
+                 </div>
+                 
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-appliance-service-box">
+               <a href="">
+                <div class="fx-appliance-service-name pb-5">
+                     <p>Washing Machine</p>
+                 </div>
+                 <div class="fx-appliance-service-img">
+                  <img src="images/service-images/washing-machine.png" alt="">
+                 </div>
+                 
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-appliance-service-box">
+               <a href="">
+                <div class="fx-appliance-service-name pb-5">
+                     <p>Microwave</p>
+                 </div>
+                 <div class="fx-appliance-service-img">
+                  <img src="images/service-images/own-service.jpeg" alt="">
+                 </div>
+               </a>
+              </div>
+           </div>
+          </div>
+          </div>
+        </div>
+       </div>
+</section>
+
+<section class="fx-home-services pt-5 pb-5">
+       <div class="container">
+        <div class="row">
+           <div class="fx-home-service-head mb-4">
+              <h2>Home repair <span>& installation</span></h2>
+           </div>
+          <div class="col-12">
+              <div class="owl-carousel fx-home-services-carousel owl-theme">
+           <div class="item">
+              <div class="fx-home-service-box">
+               <a href="">
+                 <div class="fx-home-service-img">
+                  <img src="images/service-images/ac-outer.jpeg" alt="">
+                 </div>
+                 <div class="fx-home-service-content p-2">
+                     <p>Window closing Ac</p>
+                     <div class="fx-home-star-rating p-1">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                     </div>
+                     <div class="fx-home-price p-1">
+                        <span>&#8377 240</span>
+                     </div>
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-home-service-box">
+               <a href="">
+                 <div class="fx-home-service-img">
+                  <img src="images/service-images/window-hing.jpg" alt="">
+                 </div>
+                 <div class="fx-home-service-content p-2">
+                     <p>Window hinge installation</p>
+                     <div class="fx-home-star-rating p-1">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                     </div>
+                     <div class="fx-home-price p-1">
+                        <span>&#8377 140</span>
+                     </div>
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-home-service-box">
+               <a href="">
+                 <div class="fx-home-service-img">
+                  <img src="images/service-images/tap-repair.jpg" alt="">
+                 </div>
+                 <div class="fx-home-service-content p-2">
+                     <p>Tap repair</p>
+                     <div class="fx-home-star-rating p-1">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                     </div>
+                     <div class="fx-home-price p-1">
+                        <span>&#8377 240</span>
+                     </div>
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-home-service-box">
+               <a href="">
+                 <div class="fx-home-service-img">
+                  <img src="images/service-images/cupboard.jpg" alt="">
+                 </div>
+                 <div class="fx-home-service-content p-2">
+                     <p>Cupboard hinge installation</p>
+                     <div class="fx-home-star-rating p-1">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                     </div>
+                     <div class="fx-home-price p-1">
+                        <span>&#8377 540</span>
+                     </div>
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-home-service-box">
+               <a href="">
+                 <div class="fx-home-service-img">
+                  <img src="images/service-images/tap-replace.jpg" alt="">
+                 </div>
+                 <div class="fx-home-service-content p-2">
+                     <p>Tap Replace</p>
+                     <div class="fx-home-star-rating p-1">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                     </div>
+                     <div class="fx-home-price p-1">
+                        <span>&#8377 140</span>
+                     </div>
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-home-service-box">
+               <a href="">
+                 <div class="fx-home-service-img">
+                  <img src="images/service-images/fan-repair.jpg" alt="">
+                 </div>
+                 <div class="fx-home-service-content p-2">
+                     <p>Fan repair</p>
+                     <div class="fx-home-star-rating p-1">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                     </div>
+                     <div class="fx-home-price p-1">
+                        <span>&#8377 440</span>
+                     </div>
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-home-service-box">
+               <a href="">
+                 <div class="fx-home-service-img">
+                  <img src="images/service-images/washing-machine-filtr.jpg" alt="">
+                 </div>
+                 <div class="fx-home-service-content p-2">
+                     <p>Washing machine filter</p>
+                     <div class="fx-home-star-rating p-1">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                     </div>
+                     <div class="fx-home-price p-1">
+                        <span>&#8377 240</span>
+                     </div>
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-home-service-box">
+               <a href="">
+                 <div class="fx-home-service-img">
+                  <img src="images/service-images/curtain.jpg" alt="">
+                 </div>
+                 <div class="fx-home-service-content p-2">
+                     <p>Curtain rod installation</p>
+                     <div class="fx-home-star-rating p-1">
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                        <i class="bi bi-star-fill"></i> 
+                     </div>
+                     <div class="fx-home-price p-1">
+                        <span>&#8377 240</span>
+                     </div>
+                 </div>
+               </a>
+              </div>
+           </div>
+          </div>
+          </div>
+        </div>
+       </div>
+</section>
+
+<section class="fx-advrt-slide-img">
+    <div class="container-fluid">
+        <div class="row">
+           <div class="col-12">
+               <div class="fx-advrt-next-img overflow-hidden">
+                <a href="">
+                  <img src="images/service-images/advrt-next-img.png" alt="">
+                </a>
+               </div>
+           </div>
+        </div>
+    </div>
+</section>
+
+<section class="fx-salon-services pt-5 pb-5">
+       <div class="container">
+        <div class="row">
+           <div class="fx-salon-woman-head mb-4">
+              <h2>Salon & Spa <span>for Women</span></h2>
+           </div>
+          <div class="col-12">
+              <div class="owl-carousel fx-salon-women-carousel owl-theme">
+              <div class="item">
+              <div class="fx-salon-women-box">
+               <a href="">
+                <div class="fx-salon-name pb-5">
+                     <p>Pedicure</p>
+                 </div>
+                 <div class="fx-salon-women-img">
+                  <img src="images/service-images/pedicure-img.png" alt="">
+                 </div>
+               </a>
+              </div>
+              </div>
+              <div class="item">
+              <div class="fx-salon-women-box">
+               <a href="">
+                <div class="fx-salon-name pb-5">
+                     <p>Waxing</p>
+                 </div>
+                 <div class="fx-salon-women-img">
+                  <img src="images/service-images/wax-img.png" alt="">
+                 </div>
+               </a>
+              </div>
+              </div>
+              <div class="item">
+              <div class="fx-salon-women-box">
+               <a href="">
+                <div class="fx-salon-name pb-5">
+                     <p>Threading & face waxing</p>
+                 </div>
+                 <div class="fx-salon-women-img">
+                  <img src="images/service-images/threading-img.png" alt="">
+                 </div>
+               </a>
+              </div>
+              </div>
+              <div class="item">
+              <div class="fx-salon-women-box">
+               <a href="">
+                <div class="fx-salon-name pb-5">
+                     <p>Stress relief</p>
+                 </div>
+                 <div class="fx-salon-women-img">
+                  <img src="images/service-images/strace-img.png" alt="">
+                 </div>
+               </a>
+              </div>
+              </div>
+              <div class="item">
+              <div class="fx-salon-women-box">
+               <a href="">
+                <div class="fx-salon-name pb-5">
+                     <p>Pain relief</p>
+                 </div>
+                 <div class="fx-salon-women-img">
+                  <img src="images/service-images/pain-relif.png" alt="">
+                 </div>
+               </a>
+              </div>
+              </div>
+              <div class="item">
+              <div class="fx-salon-women-box">
+               <a href="">
+                <div class="fx-salon-name pb-5">
+                     <p>Facial</p>
+                 </div>
+                 <div class="fx-salon-women-img">
+                  <img src="images/service-images/facial-img.png" alt="">
+                 </div>
+               </a>
+              </div>
+              </div>
+             </div>
+          </div>
+        </div>
+       </div>
+</section>
+
+<section class="fx-men-salon-services pt-4 pb-5">
+       <div class="container">
+        <div class="row">
+           <div class="fx-men-salon-service-head mb-4">
+              <h2>Salon & Spa <span>for Men</span></h2>
+           </div>
+          <div class="col-12">
+              <div class="owl-carousel fx-men-salon-carousel owl-theme">
+           <div class="item">
+              <div class="fx-men-salon-box">
+               <a href="">
+                <div class="fx-men-salon-name pb-5">
+                     <p>Haircut & beard styling</p>
+                 </div>
+                 <div class="fx-men-salon-img">
+                  <img src="images/service-images/men-hair-cut.jpeg" alt="">
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-men-salon-box">
+               <a href="">
+                <div class="fx-men-salon-name pb-5">
+                     <p>Hair color & Hair spa</p>
+                 </div>
+                 <div class="fx-men-salon-img">
+                  <img src="images/service-images/hair-span.jpeg" alt="">
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-men-salon-box">
+               <a href="">
+                <div class="fx-men-salon-name pb-5">
+                     <p>Pedicure & Manicure</p>
+                 </div>
+                 <div class="fx-men-salon-img">
+                  <img src="images/service-images/body-spa.jpeg" alt="">
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-men-salon-box">
+               <a href="">
+                <div class="fx-men-salon-name pb-5">
+                     <p>Facial & cleanup</p>
+                 </div>
+                 <div class="fx-men-salon-img">
+                  <img src="images/service-images/facial-clean.jpeg" alt="">
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-men-salon-box">
+               <a href="">
+                <div class="fx-men-salon-name pb-5">
+                     <p>Pain relief</p>
+                 </div>
+                 <div class="fx-men-salon-img">
+                  <img src="images/service-images/pain-releif-men.jpeg" alt="">
+                 </div>
+               </a>
+              </div>
+           </div>
+            <div class="item">
+              <div class="fx-men-salon-box">
+               <a href="">
+                <div class="fx-men-salon-name pb-5">
+                     <p>Post workout </p>
+                 </div>
+                 <div class="fx-men-salon-img">
+                  <img src="images/service-images/post-stret.jpeg" alt="">
+                 </div>
+               </a>
+              </div>
+           </div>
+          </div>
+          </div>
+        </div>
+       </div>
+</section>
+
+<section class="fx-advrt-slide-img pb-5">
+    <div class="container-fluid">
+        <div class="row">
+           <div class="col-12">
+               <div class="fx-advrt-next-img overflow-hidden">
+                <a href="">
+                  <img src="images/service-images/advrt-repair.png" alt="">
+                </a>
+               </div>
+           </div>
+        </div>
+    </div>
+</section>
+
+<section class="fx-how-works pt-5 pb-5 mb-5">
+    <div class="container">
+      <div class="row">
+         <div class="col-md-6 col-lg-6">
+             <div class="fx-work-text">
+                <h2>How It Works: <span>3 Easy Steps</span></h2>
+                <p>Easily find, book, and review top-rated services in just three simple steps. Our intuitive platform ensures a smooth experience, helping you connect with trusted professionals quickly and effortlessly.</p>
+
+                 <div class="fx-work-steps d-flex gap-3 mt-4">
+                     <div class="fx-work-circle">
+                         <span>1</span>
+                     </div>
+                     <div class="fx-work-steps-text">
+                        <h3>Step 1: Find A Service</h3>
+                        <p>Simply enter what you need in our easy-to-use search bar. From home fixes to tech support, get instantly matched with trusted local experts. Fast, reliable service no stress, just solutions.</p>
+                     </div>
+                 </div>
+                 <div class="fx-work-steps d-flex gap-3 mt-2">
+                     <div class="fx-work-circle">
+                         <span>2</span>
+                     </div>
+                     <div class="fx-work-steps-text">
+                        <h3>Step 2: Choose And Book A Service</h3>
+                        <p>Browse detailed profiles and read authentic reviews to choose the right expert. Our platform helps you make confident decisions with trusted insights from real users who’ve hired and rated professionals.</p>
+                     </div>
+                 </div>
+                 <div class="fx-work-steps d-flex gap-3 mt-2">
+                     <div class="fx-work-circle">
+                         <span>3</span>
+                     </div>
+                     <div class="fx-work-steps-text">
+                        <h3>Step 3: Get the Service, Pay and Review</h3>
+                        <p>Booking takes just a few clicks quick, simple, and secure. After your service is complete, share your experience to help others, keeping the platform a reliable hub for quality professionals.</p>
+                     </div>
+                 </div>
+
+             </div>
+         </div>
+         <div class="col-md-6 col-lg-6">
+               <div class="fx-works-img">
+                  <img src="images/service-images/work-img.png" alt="">
+               </div>
+         </div>
+      </div>
+    </div>
+</section>
+
+<div id="footer"></div>
+
+
+
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  // When the DOM is fully loaded
+  document.addEventListener("DOMContentLoaded", function () {
+    // Get button and sections
+    const nextBtn = document.getElementById("showOtpPage");
+    const page1 = document.getElementById("mainPage");
+    const otpPage = document.getElementById("otpPage");
+
+    // Attach click event to the button
+    nextBtn.addEventListener("click", function () {
+      page1.classList.add("d-none");     // Hide first page
+      otpPage.classList.remove("d-none"); // Show OTP page
+    });
+  });
+</script>
+     <script src="custom-css/javascript.js"></script>
+     <script src="custom-css/bootstrap/js/bootstrap.bundle.min.js"></script>
+     <script src="custom-css/bootstrap/js/style.js"></script>
+     <script src="./custom-css/script.js"></script>
+
+   <script>
+  const customSelect = document.getElementById('customSelect');
+
+  function toggleDropdown() {
+    customSelect.classList.toggle('open');
+  }
+
+  function selectOption(el) {
+    const value = el.textContent;
+    customSelect.querySelector('.fx-select-box').textContent = value;
+    customSelect.classList.remove('open');
+  }
+
+  function filterOptions(input) {
+    const filter = input.value.toLowerCase();
+    const options = customSelect.querySelectorAll('.fx-option');
+    options.forEach(option => {
+      const text = option.textContent.toLowerCase();
+      option.style.display = text.includes(filter) ? 'block' : 'none';
+    });
+  }
+
+  // Close dropdown if clicked outside
+  document.addEventListener('click', (e) => {
+    if (!customSelect.contains(e.target)) {
+      customSelect.classList.remove('open');
+    }
+  });
+</script>
+ <script>
+  const customDropdown = document.getElementById('customDropdown');
+
+  function toggleCustomDropdown() {
+    customDropdown.classList.toggle('open');
+  }
+
+  function chooseDropdownItem(el) {
+    const value = el.textContent;
+    customDropdown.querySelector('.fx-select-box').textContent = value;
+    customDropdown.classList.remove('open');
+  }
+
+  function searchDropdownItems(input) {
+    const filter = input.value.toLowerCase();
+    const items = customDropdown.querySelectorAll('.dropdown-item');
+    items.forEach(item => {
+      const text = item.textContent.toLowerCase();
+      item.style.display = text.includes(filter) ? 'block' : 'none';
+    });
+  }
+
+  // Close dropdown if clicked outside
+  document.addEventListener('click', (e) => {
+    if (!customDropdown.contains(e.target)) {
+      customDropdown.classList.remove('open');
+    }
+  });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,264 @@
+.fx-login-hero-section{
+    background: url("https://pagraft.com/public/uploads/website-images/banner-us-2022-11-06-04-29-26-8727.jpg");
+background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    
+    
+
+}
+
+
+
+
+
+.fx-hadlogin h1 {
+    text-transform: capitalize;
+    font-size: 42px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.fx-breadcrumb  {
+    margin: 0;
+    justify-content: center;
+}
+
+.fx-breadcrumb , .fx-breadcrumb  li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+}
+
+.fx-login-from-start{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    
+}
+
+
+.fx__sign_in_area {
+    background: var(--colorWhite);
+    box-shadow: 0px 0px 30px 5px rgba(55, 143, 255, 0.08);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.fx__sign_in_area .wsus__review_input {
+    border: none;
+    border-radius: 0;
+}
+.fx__sign_in_text {
+    padding: 40px;
+}
+
+.fx__sign_in_text h2 {
+    font-weight: 700;
+    font-size: 42px;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.fx__sign_in_text p {
+    color: Black;
+}
+.fx__review_input p {
+    font-size: 15px;
+    color: #c1c1c1;
+}
+.fx__review_input input, .fx__review_input textarea {
+    border: none;
+    padding: 5px 15px 12px 15px;
+    background: White !important;
+}
+input, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    outline: none;
+    resize: none;
+    border: 1px solid #e4e7e9;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.fx__review_input fieldset {
+    border: 1px solid #c2ddff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.fx__review_input legend {
+    width: auto;
+    float: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: Black;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    margin-left: 15px;
+    text-align: left;
+    background: var(--colorWhite);
+    padding: 0px 3px;
+}
+.fx__review_input input, .fx__review_input textarea {
+    border: none;
+    padding: 5px 15px 12px 15px;
+    background: white
+}
+    input, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    outline: none;
+    resize: none;
+    border: 1px solid #e4e7e9;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.fx__login_check {
+    justify-content: space-between;
+    align-items: center;
+}
+.fs__login_check .form-check {
+    display: flex
+;
+    align-items: center;
+    padding-left: 0;
+}
+
+.fx__login_check .form-check input {
+    padding: 0;
+    border: 1px solid Primary;
+}
+
+.fx__login_check .form-check input {
+    width: auto;
+    margin-right: 5px;
+}
+
+.fx__login_check a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #f9b006;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.common_btn {
+    background: #f9b006;;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+    margin-top: 20px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s ease;
+    -moz-transition: all linear 0.3s ease;
+    -ms-transition: all linear 0.3s ease;
+    -o-transition: all linear 0.3s ease;
+}
+
+.fx__review_input .or {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0px;
+    color: Black;
+    position: relative;
+}
+
+.fx__review_input .or::before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 1px;
+    background: #deebfd;
+    top: 50%;
+    right: 53%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.fx__review_input .or::after {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 1px;
+    background: #deebfd;
+    top: 50%;
+    left: 53%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+
+.fx__review_input ul li a {
+    display: block;
+    background: White;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 17px 20px;
+    text-align: center;
+    margin-top: 25px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+}
+ul, ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.fx__review_input .create_account {
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+}
+
+.fx__sign_in_img {
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.fx__sign_in_img {
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}

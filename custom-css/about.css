@@ -1,0 +1,131 @@
+
+.fx-aboutus-section h2 {
+    text-align:center;
+    margin-top: 40px;
+}
+
+.fx-services-pera {
+    text-align:center;
+    color: #5a5a5a;
+}
+
+
+.fx-about-box1{
+    padding: 0px 50px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.fx-about-box1 span{
+        display: block;
+    width: 100px;
+    height: 100px;
+    background: #5a5a5a;
+    border-radius: 50%;
+    padding: 24px;
+    margin: 0 auto;
+}
+
+.fx-about-box1 h4 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin: 35px 0px 15px 0px;
+
+}
+.fx-about-box1 p{
+    text-align: center;
+        font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    color: #5a5a5a;
+}
+.fx-about-box1::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 70%;
+    right: 0;
+    top: 15%;
+    background: #deebff;
+}
+
+
+
+
+
+
+
+
+
+
+.fx-aboutswork-start_img {
+    height: 550px;
+    position: relative;
+}
+
+.fx-aboutswork-start_img .img_1{
+
+ 
+    width: 440px !important;
+    height: 440px !important;
+    border-radius: 5px;
+}
+
+
+
+
+.fx-aboutswork-start_img .img_2{    width: 200px !important;
+    height: 400px !important;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 40px;}
+
+.fx-aboutswork-start_img .img_3{
+
+}
+
+
+.fx-aboutswork-start_rating .rating_img_1 {
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50%;
+    border: 4px solid var(--colorPrimary);
+    position: absolute;
+    top: 8px;
+    left: 13px;
+    -webkit-border-radius: 50%;
+}
+
+.fx-aboutswork-start_rating .rating_img_2{
+left: 55px;
+
+} 
+
+.fx-aboutswork-start_rating .rating_img_3{
+        left: 95px;
+    
+} 
+
+
+.fx-aboutswork-start_rating p {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--colorWhite);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.fx-aboutswork-start_rating p span {
+    display: block;
+    color: var(--colorWhite);
+    font-size: 14px;
+}
